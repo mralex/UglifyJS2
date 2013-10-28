@@ -483,7 +483,8 @@ var toplevel_ast = UglifyJS.parse(code, options);
 properties are available:
 
 - `strict` — disable automatic semicolon insertion and support for trailing
-  comma in arrays and objects
+  commas in arrays and objects
+- `allowTrailingCommas` — allow for trailing commas in arrays and objects
 - `filename` — the name of the file where this code is coming from
 - `toplevel` — a `toplevel` node (as returned by a previous invocation of
   `parse`)
